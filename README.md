@@ -126,7 +126,7 @@ var editor = new Jodit('#editor', {
 ```javascript
 Jodit.plugins.yourplugin = function (editor) {
     editor.events.on('afterInit', function () {
-        editor.seleciotn.insertHTMl('Text');
+        editor.selection.insertHTMl('Text');
     });
 }
 ```
